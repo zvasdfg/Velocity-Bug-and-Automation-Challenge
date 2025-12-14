@@ -1,9 +1,9 @@
-Employees API – Defect Analysis Report
-1. Purpose of This Report
+# Employees API – Defect Analysis Report
+## 1. Purpose of This Report
 
 This report summarizes the defects identified during functional and exploratory testing of the Employees API. The intent is to provide developers with clear, actionable information about current issues, their impact, and recommended focus areas for remediation. The level of detail reflects what would typically be shared directly with an engineering team to support efficient triage and fixes.
 
-2. Scope
+## 2. Scope
 
 System Under Test: Employees API
 
@@ -19,7 +19,7 @@ Error handling and API contract consistency
 
 RESTful behavior and HTTP semantics
 
-3. Executive Summary
+## 3. Executive Summary
 
 Testing revealed multiple critical and high-severity defects that directly affect data integrity, business rule enforcement, and API reliability. The most severe issues involve:
 
@@ -33,8 +33,8 @@ In addition, several medium-severity issues degrade developer experience and mak
 
 Overall risk assessment: High – The API is currently vulnerable to invalid financial data, ambiguous client behavior, and broken REST contracts.
 
-4. Defect Overview
-4.1 Critical & High-Severity Defects
+## 4. Defect Overview
+### 4.1 Critical & High-Severity Defects
 BUG-003 – Salary can be overridden via PUT despite fixed business rules
 
 Severity: Critical | Priority: High
@@ -75,7 +75,7 @@ Impact: Invalid financial data propagates into calculations.
 
 Risk: High – Corrupts core financial logic.
 
-4.2 Medium-Severity Defects
+### 4.2 Medium-Severity Defects
 BUG-005 – Deleting employee with non-existing ID returns success
 
 Severity: Medium | Priority: Medium
@@ -130,12 +130,12 @@ Summary: Values above the allowed maximum (32) are rejected silently or with vag
 
 Impact: Poor developer experience and unclear constraints.
 
-5. Cross-Cutting Observations
-5.1 Business Rules vs. Implementation
+## 5. Cross-Cutting Observations
+### 5.1 Business Rules vs. Implementation
 
 There is a clear inconsistency between documented or assumed business rules (e.g., fixed salary) and actual API behavior. In some cases, the API both allows and ignores updates to the same field, depending on the scenario.
 
-5.2 Validation and Error Handling Gaps
+### 5.2 Validation and Error Handling Gaps
 
 Missing minimum/maximum constraints in schema definitions
 
@@ -145,7 +145,7 @@ Silent rejections or ignored fields
 
 These issues significantly increase the cost of integration and testing.
 
-5.3 REST and API Contract Issues
+## 5.3 REST and API Contract Issues
 
 Incorrect HTTP status codes (5xx instead of 404)
 
@@ -153,7 +153,7 @@ DELETE operations returning success for non-existing resources
 
 No standardized error response format
 
-6. Recommendations
+## 6. Recommendations
 Short-Term (High Priority)
 
 Enforce salary business rules consistently (either fully immutable or explicitly editable)
@@ -176,6 +176,6 @@ Update and align OpenAPI specification with actual behavior
 
 Add contract tests to prevent regression in business rules and error handling
 
-7. Conclusion
+## 7. Conclusion
 
 The Employees API currently exposes several high-risk defects that can lead to incorrect financial data, unreliable client behavior, and increased maintenance cost. Addressing the critical and high-severity issues should be prioritized before extending functionality or onboarding additional consumers. Standardizing validation and error handling will significantly improve API robustness and developer experience.
