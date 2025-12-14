@@ -16,6 +16,19 @@ The framework follows:
 It is intentionally kept **simple, scalable, and CI/CD friendly**, suitable for technical assessments and real-world projects.
 
 ---
+
+## ⚠️ IMPORTANT NOTE
+
+I am aware that it is **not a security best practice** to publish sensitive files such as `.env` files (and other artifacts that should normally be included in `.gitignore`).
+
+However, **for the purpose of facilitating installation, execution, and review of this assessment**, these files have been intentionally included in the repository.
+
+In a real production or enterprise environment, all sensitive configuration files would be:
+- Properly excluded from version control
+- Managed through secure secret management solutions
+- Injected via environment variables or CI/CD pipelines
+---
+
 ## 📊 Defect Analysis Reports
 
 At the **root of this repository**, you will find the following defect analysis documents:
