@@ -1,4 +1,0 @@
-2025-12-14 14:20:02 | WARNING | src.pages.dashboard_page | Login Succesfull
-2025-12-14 14:20:03 | INFO | src.pages.dashboard_page | Click on Edit Employee BTN
-2025-12-14 14:20:03 | INFO | src.pages.dashboard_page | Click on Edit Employee BTN
-2025-12-14 14:20:03 | INFO | src.pages.dashboard_page | Employee succesfully deleted

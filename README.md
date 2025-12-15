@@ -1,8 +1,8 @@
-# Velocity Automation Framework
+# Paylocity Automation Framework
 
 ## 📌 Overview
 
-Velocity Automation Framework is a **Python-based test automation framework** designed to validate both **UI and API layers** using best practices in test architecture.
+Paylocity Automation Framework is a **Python-based test automation framework** designed to validate both **UI and API layers** using best practices in test architecture.
 
 The framework follows:
 
@@ -94,7 +94,7 @@ These documents describe:
 ## 📂 Project Structure
 
 ```text
-Velocity/
+Paylocity/
 ├── Bugs/
 │   ├── API/
 │   │   ├── BUG-001.txt
@@ -142,7 +142,7 @@ Velocity/
 │   │   ├── TC-06 Delete employee.xlsx
 │   │   ├── TC-07 Add employee with negative dependents.xlsx
 │   │   ├── TC-08 Add employee with very large number of dependents.xlsx
-├── velocity-automation-framework/
+├── Paylocity-automation-framework/
 │   ├── .env
 │   ├── pytest.ini
 │   ├── README.md

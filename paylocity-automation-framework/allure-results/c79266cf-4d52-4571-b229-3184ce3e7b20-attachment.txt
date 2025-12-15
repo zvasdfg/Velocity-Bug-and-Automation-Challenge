@@ -1,0 +1,4 @@
+2025-12-15 11:09:51 | WARNING | TC-06_Delete_Employee | Login Succesfull
+2025-12-15 11:09:52 | INFO | src.pages.dashboard_page | Click on Edit Employee BTN
+2025-12-15 11:09:52 | INFO | src.pages.dashboard_page | Click on Edit Employee BTN
+2025-12-15 11:09:52 | INFO | src.pages.dashboard_page | Employee succesfully deleted

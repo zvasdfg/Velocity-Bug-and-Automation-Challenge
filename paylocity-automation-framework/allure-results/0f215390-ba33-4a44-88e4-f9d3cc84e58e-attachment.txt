@@ -1,0 +1,2 @@
+2025-12-15 11:09:26 | WARNING | TC-04_Validate_Information | Login Succesfull
+2025-12-15 11:09:27 | INFO | src.pages.dashboard_page | Net pay validated successfully | net=1961.54 gross=2000.0 benefits=38.46

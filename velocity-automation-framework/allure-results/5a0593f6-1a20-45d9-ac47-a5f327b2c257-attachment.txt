@@ -1,6 +1,0 @@
-2025-12-15 10:24:18 | INFO | src.pages.dashboard_page | Click on Add Employee BTN
-2025-12-15 10:24:18 | INFO | src.pages.dashboard_page | firstname set
-2025-12-15 10:24:18 | INFO | src.pages.dashboard_page | Lastname set
-2025-12-15 10:24:18 | INFO | src.pages.dashboard_page | Dependants Set
-2025-12-15 10:24:18 | INFO | src.pages.dashboard_page | Click on Add BTN
-2025-12-15 10:24:18 | INFO | src.pages.dashboard_page | Employee succesfully added

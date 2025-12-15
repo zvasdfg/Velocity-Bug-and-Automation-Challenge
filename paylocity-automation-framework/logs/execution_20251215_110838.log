@@ -1,0 +1,31 @@
+2025-12-15 11:08:50 | INFO | src.pages.dashboard_page | Click on Add Employee BTN
+2025-12-15 11:08:50 | INFO | src.pages.dashboard_page | firstname set
+2025-12-15 11:08:51 | INFO | src.pages.dashboard_page | Lastname set
+2025-12-15 11:08:51 | INFO | src.pages.dashboard_page | Dependants Set
+2025-12-15 11:08:51 | INFO | src.pages.dashboard_page | Click on Add BTN
+2025-12-15 11:08:51 | INFO | src.pages.dashboard_page | Employee succesfully added
+2025-12-15 11:09:02 | INFO | src.pages.dashboard_page | Click on Add Employee BTN
+2025-12-15 11:09:03 | INFO | src.pages.dashboard_page | firstname set
+2025-12-15 11:09:03 | INFO | src.pages.dashboard_page | Lastname set
+2025-12-15 11:09:03 | INFO | src.pages.dashboard_page | Dependants Set
+2025-12-15 11:09:03 | INFO | src.pages.dashboard_page | Click on Add BTN
+2025-12-15 11:09:03 | INFO | src.pages.dashboard_page | Employee succesfully added
+2025-12-15 11:09:14 | INFO | src.pages.dashboard_page | Click on Add Employee BTN
+2025-12-15 11:09:15 | INFO | src.pages.dashboard_page | firstname set
+2025-12-15 11:09:15 | INFO | src.pages.dashboard_page | Lastname set
+2025-12-15 11:09:15 | INFO | src.pages.dashboard_page | Dependants Set
+2025-12-15 11:09:15 | INFO | src.pages.dashboard_page | Click on Add BTN
+2025-12-15 11:09:15 | INFO | src.pages.dashboard_page | Employee succesfully added
+2025-12-15 11:09:26 | WARNING | TC-04_Validate_Information | Login Succesfull
+2025-12-15 11:09:27 | INFO | src.pages.dashboard_page | Net pay validated successfully | net=1961.54 gross=2000.0 benefits=38.46
+2025-12-15 11:09:39 | WARNING | TC-05_Edit_Employee | Login Succesfull
+2025-12-15 11:09:39 | INFO | src.pages.dashboard_page | Click on Edit Employee BTN
+2025-12-15 11:09:39 | INFO | src.pages.dashboard_page | firstname set
+2025-12-15 11:09:39 | INFO | src.pages.dashboard_page | Lastname set
+2025-12-15 11:09:39 | INFO | src.pages.dashboard_page | Dependants Set
+2025-12-15 11:09:39 | INFO | src.pages.dashboard_page | Click on Update BTN
+2025-12-15 11:09:39 | INFO | src.pages.dashboard_page | Employee succesfully updated
+2025-12-15 11:09:51 | WARNING | TC-06_Delete_Employee | Login Succesfull
+2025-12-15 11:09:52 | INFO | src.pages.dashboard_page | Click on Edit Employee BTN
+2025-12-15 11:09:52 | INFO | src.pages.dashboard_page | Click on Edit Employee BTN
+2025-12-15 11:09:52 | INFO | src.pages.dashboard_page | Employee succesfully deleted
