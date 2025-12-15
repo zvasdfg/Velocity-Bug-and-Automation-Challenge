@@ -94,6 +94,7 @@ These documents describe:
 ## 📂 Project Structure
 
 ```text
+<<<<<<< HEAD
 Paylocity/
 ├── Bugs/
 │   ├── API/
@@ -184,6 +185,41 @@ Paylocity/
 │   │   │   ├── TC-06.py
 │   │   │   ├── test_login.py
 
+=======
+├── src/
+│   ├── config/
+│   ├── core/
+│   │   ├── __init__.py (0.0 KB)
+│   │   ├── base_page.py (0.6 KB)
+│   │   └── driver_factory.py (0.6 KB)
+│   ├── pages/
+│   │   ├── dashboard_page.py (3.5 KB)
+│   │   └── login_page.py (0.5 KB)
+│   ├── utils/
+│   │   ├── assertions.py (3.0 KB)
+│   │   └── logger.py (1.2 KB)
+│   └── __init__.py (0.0 KB)
+├── tests/
+│   ├── api/
+│   │   ├── TC-API-EMP-01_Create_Employee_Mandatory_Data.py (1.9 KB)
+│   │   ├── TC-API-EMP-02_Create_Employee_Max_Dependants.py (1.9 KB)
+│   │   ├── TC-API-EMP-03_Create_Employee_Negative_Dependants.py (1.3 KB)
+│   │   ├── TC-API-EMP-04_Create_Employee_Overflow_Dependants.py (1.3 KB)
+│   │   ├── TC-API-EMP-05_Get_Employee_List.py (1.2 KB)
+│   │   ├── TC-API-EMP-07_Create_Employee_WIthout_Mandatory_Data.py (1.8 KB)
+│   │   ├── TC-API-EMP-08_Get_Single_Employee.py (1.6 KB)
+│   │   └── TC-API-EMP-10_Modify_Existing_Employee.py (1.6 KB)
+│   └── ui/
+│       ├── TC-01_Add_Employee_No_Deps.py (0.9 KB)
+│       ├── TC-02_Add_Employee_SIngle_Dep.py (0.9 KB)
+│       ├── TC-03_Add_Employee_Multiple_Deps.py (0.9 KB)
+│       ├── TC-04_Validate_Information.py (0.9 KB)
+│       ├── TC-05_Edit_Employee.py (0.9 KB)
+│       └── TC-06_Delete_Employee.py (1.0 KB)
+├── conftest.py (0.2 KB)
+├── pytest.ini (0.9 KB)
+└── requirements.txt (0.7 KB)
+>>>>>>> 74ba17043a5b629f768b856dd8c0854999b03b51
 
 
 
@@ -232,6 +268,11 @@ Make sure you have **Google Chrome installed**.
 
 ## ▶️ Running Tests
 
+### Make sure to be in the right location:
+
+```bash
+velocity-automation-framework
+```
 ### Run all tests
 
 ```bash
