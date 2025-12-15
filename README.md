@@ -175,6 +175,11 @@ Make sure you have **Google Chrome installed**.
 
 ## ▶️ Running Tests
 
+### Make sure to be in the right location:
+
+```bash
+velocity-automation-framework
+```
 ### Run all tests
 
 ```bash
